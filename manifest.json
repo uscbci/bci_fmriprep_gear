@@ -4,10 +4,10 @@
   "description": "fmriprep is a functional magnetic resonance imaging (fMRI) data preprocessing pipeline that is designed to provide an easily accessible, state-of-the-art interface that is robust to variations in scan acquisition protocols and that requires minimal user input, while providing easily interpretable and comprehensive error and output reporting. It performs basic processing steps (coregistration, normalization, unwarping, noise component extraction, segmentation, skullstripping etc.) providing outputs that can be easily submitted to a variety of group level analyses, including task-based or resting-state fMRI, graph theory measures, surface or volume-based statistics, etc.",
   "author": "Poldrack Lab, Stanford University",
   "cite": "Esteban O, Markiewicz CJ, Blair RW, Moodie CA, Isik AI, Erramuzpe A, Kent JD, Goncalves M, DuPre E, Snyder M, Oya H, Ghosh SS, Wright J, Durnez J, Poldrack RA, Gorgolewski KJ. fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat Meth. 2018; doi:10.1038/s41592-018-0235-4. FOR MORE INFORMATION SEE: http://fmriprep.readthedocs.io/en/stable/citing.html.",
-  "maintainer": "Flywheel <support@flywheel.io>",
-  "source": "https://github.com/flywheel-apps/fmriprep",
+  "maintainer": "Jonas Kaplan <jtkaplan@usc.edu>",
+  "source": "https://github.com/uscbci/bci_fmriprep_gear",
   "url": "https://fmriprep.readthedocs.io/en/1.2.6-1/",
-  "version": "5.7.1_1.2.6-4",
+  "version": "5.7.1_1.2.6-5",
   "custom": {
     "docker-image": "flywheel/fmriprep:5.7.1_1.2.6-1",
     "gear-builder": {
