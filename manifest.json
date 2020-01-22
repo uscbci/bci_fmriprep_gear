@@ -7,7 +7,7 @@
   "maintainer": "Jonas Kaplan <jtkaplan@usc.edu>",
   "source": "https://github.com/uscbci/bci_fmriprep_gear",
   "url": "https://fmriprep.readthedocs.io/en/1.2.6-1/",
-  "version": "5.7.1_1.2.6-5",
+  "version": "5.7.1_1.2.6-7",
   "custom": {
     "docker-image": "flywheel/fmriprep:5.7.1_1.2.6-1",
     "gear-builder": {

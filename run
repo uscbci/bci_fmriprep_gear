@@ -289,11 +289,12 @@ fi
 # CREATE A BIDS FORMATTED DIRECTORY
 #   Use Python SDK to accomplish this task
 # if [[ ! -d $INPUT_DIR/bids_dataset ]]; then
-    /usr/local/miniconda/bin/python ${FLYWHEEL_BASE}/create_archive.py
-    if [[ $? != 0 ]]; then
-      echo "$CONTAINER  Problem creating archive! Exiting (1)"
-      exit 1
-    fi
+# (JK: even if there is a dir there we want to override it with the create_archive one)
+/usr/local/miniconda/bin/python ${FLYWHEEL_BASE}/create_archive.py
+if [[ $? != 0 ]]; then
+  echo "$CONTAINER  Problem creating archive! Exiting (1)"
+  exit 1
+fi
 # else
 #     echo -e "Found existing data!!!"
 # fi
@@ -312,7 +313,6 @@ fi
 # Show the contents of the BIDS directory
 ls -R ${BIDS_DIR}
 
-exit 1
 
 ################################################################################
 # RUN FMRIPREP
